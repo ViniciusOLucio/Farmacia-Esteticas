@@ -1,0 +1,84 @@
+header span.titulo {
+  font-family: "Saira";
+  font-weight: 700;
+  /* margin-left:50px; */
+}
+
+/* font-family: "Poppinis"; */
+
+header {
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+header a {
+  float: left;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: "Saira";
+}
+
+header .logo {
+  color: #2C2E41;
+  font-size: 48px;
+  font-family: Saira;
+  font-style: normal;
+  font-family: "Poppinis";
+  font-weight: 400;
+  line-height: normal;
+}
+
+header img {
+  width: 84px;
+  height: 88px;
+  flex-shrink: 0;
+}
+
+/* agendar consulta */
+/* header a:hover.active {
+  font-family: "Saira";
+  font-weight: 700;
+  background-color: #0369a1;
+  color: #0369a1;
+} */
+
+/* header .active {
+  padding: 210px;
+  height: 43px;
+  font-family: "Saira";
+  font-weight: 700;
+  font-family: "Saira";
+  border-radius: 30px;
+  opacity: 0.9;
+  color: #2C2E41;
+  font-size: 20px;
+  line-height: 2;
+} */
+
+/* .header-right  {
+  margin-top: 20px;
+  margin-right: 10%;
+  float: right;
+} */
+
+@media screen and (max-width: 500px) {
+  header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+
+h1 {
+  font-family: "Saira";
+  /* font-family: "Poppinis"; */
+  font-weight: 700;
+}
