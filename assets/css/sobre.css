@@ -5,8 +5,16 @@
 }
 
 .sobre .card {
-    margin-top: -17%;
-    margin-left: 200px;
+    margin-left: 16%;
+/* justify-content: center; */
+   /* align-items: center; */
     width: 800px;
     height: 250px;
 }
+/* @media (min-width: 360px){
+    .sobre .card{
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    }
+  } */

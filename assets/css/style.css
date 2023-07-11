@@ -12,24 +12,8 @@
 }
 
 body {
+  margin: 0;
   height: 100vh;
   background: var(--fundo);
 }
 
-span.subtitleh {
-  color: rgba(44, 46, 65, 0.50);
-  font-size: 12px;
-  font-family: Poppins;
-  /* font-style: normal; */
-  font-weight: 400;
-  line-height: normal;
-  margin-top: -25px;
-  margin-left: -10vh;
-}
-
-/* 
-h1{
-  font-family: "Saira";
-  font-family: "Poppinis";
-  font-weight: 700;
-} */

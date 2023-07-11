@@ -1,6 +1,31 @@
-.container{
+main{
+  /* background-color:royalblue ; */
+  display: grid;
   max-width: 1240px;
   margin: 0 auto;
   padding: 0px 20px;
-  /* border: 1px solid red;  */
+  border: 1px solid red; 
 }
+.col-100{
+  border: 1px solid blue;
+  background-color:rgb(255, 255, 255);
+  width: 100%;
+
+
+}
+
+/* mobile
+@media (min-width: 360px){
+  .container{
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0px 20px;
+  }
+}
+
+/* 768px - 1024px = telas menores, laptops */
+/* @media (min-width: 768px) { */
+  /* h5 {
+    color: cadetblue;
+  } */
+

@@ -1,20 +1,18 @@
-.projetos {
-    margin-left: 10vh;
+/* .projetos {
+    margin: auto;
 
-    margin-top: 20vh
-}
+
+} */
 
 .separacao {
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
-    justify-items: center;
-    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .projetos h2 {
 
     font-family: "Saira";
-    /* font-family: "Poppinis"; */
+
     font-weight: 700;
 }
 
@@ -24,10 +22,10 @@
 
 .check-list li {
     font-family: "Poppinis";
-    font-weight: 700;
+    font-weight: 300;
     position: relative;
     list-style-type: none;
-    padding-left: 2.5rem;
+    padding-left:1rem;
     margin-bottom: 0.5rem;
 }
 
@@ -44,4 +42,7 @@
     border-color: #00a8a8;
     transform-origin: bottom left;
     transform: rotate(45deg);
+}
+.projetos .separacao ul{
+    margin-left: 60px;
 }

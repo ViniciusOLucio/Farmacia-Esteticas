@@ -37,48 +37,27 @@ header img {
   height: 88px;
   flex-shrink: 0;
 }
-
-/* agendar consulta */
-/* header a:hover.active {
-  font-family: "Saira";
-  font-weight: 700;
-  background-color: #0369a1;
-  color: #0369a1;
-} */
-
-/* header .active {
-  padding: 210px;
-  height: 43px;
-  font-family: "Saira";
-  font-weight: 700;
-  font-family: "Saira";
-  border-radius: 30px;
-  opacity: 0.9;
-  color: #2C2E41;
-  font-size: 20px;
-  line-height: 2;
-} */
-
-/* .header-right  {
-  margin-top: 20px;
-  margin-right: 10%;
-  float: right;
-} */
-
-@media screen and (max-width: 500px) {
-  header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-  .header-right {
-    float: none;
-  }
+span.subtitleh {
+  color: rgba(44, 46, 65, 0.50);
+  font-size: 12px;
+  font-family: Poppins;
+  /* font-style: normal; */
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -25px;
+  margin-left: -10vh;
 }
+
+
+.titulo span{color: #0360a1;}
 
 h1 {
   font-family: "Saira";
   /* font-family: "Poppinis"; */
   font-weight: 700;
 }
+/* @media (min-width: 360px){
+  header span.titulo{
+
+  }
+  } */
