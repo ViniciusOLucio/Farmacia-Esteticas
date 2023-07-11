@@ -10,22 +10,11 @@ main{
   border: 1px solid blue;
   background-color:rgb(255, 255, 255);
   width: 100%;
-
-
 }
 
-/* mobile
-@media (min-width: 360px){
-  .container{
-  max-width: 480px;
-  margin: 0 auto;
-  padding: 0px 20px;
+/* MOBILE */
+@media (max-width: 800px) {
+  #hero{
+    display: none;
   }
 }
-
-/* 768px - 1024px = telas menores, laptops */
-/* @media (min-width: 768px) { */
-  /* h5 {
-    color: cadetblue;
-  } */
-

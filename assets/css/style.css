@@ -6,6 +6,7 @@
 @import url("./sobre.css");
 @import url("./projetos.css");
 @import url("./footer.css");
+@import url("./mais-procurados.css");
 
 :root {
   --fundo: #F0F3F9;
