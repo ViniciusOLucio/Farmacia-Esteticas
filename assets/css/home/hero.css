@@ -8,8 +8,8 @@
   font-weight: 700;
 
 }
-.hero {
-  /* background: greenyellow; */
+.hero  {
+  background: greenyellow;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
@@ -17,7 +17,7 @@
 }
 
 .hero-img {
-  /* background-color: tomato; */
+   background-color: tomato; 
 }
 
 .hero-img img {

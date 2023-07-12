@@ -5,7 +5,9 @@ header span.titulo {
 }
 
 /* font-family: "Poppinis"; */
-
+.header-2{
+  display: flex;
+}
 header {
   overflow: hidden;
   padding: 20px 10px;
@@ -23,6 +25,8 @@ header a {
 }
 
 header .logo {
+  display: flex; 
+  flex-direction: column;
   color: #2C2E41;
   font-size: 48px;
   font-family: Saira;
@@ -45,7 +49,7 @@ span.subtitleh {
   font-weight: 400;
   line-height: normal;
   margin-top: -25px;
-  margin-left: -10vh;
+  margin-left: -60vh;
 }
 
 

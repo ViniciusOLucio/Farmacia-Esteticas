@@ -1,6 +1,28 @@
 
+#mais-procurados h1{
+  font-size: 3rem;
+  font-weight: 700;
+}
 
-.cartoes main h1 {
+.mais-procurados-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.mais-procurados-cards img {
+  max-width: 100px;
+}
+
+/* MOBILE */
+@media (max-width: 800px) {
+  .mais-procurados-cards {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+.mais-procurados-cards  h1 {
   padding-top: 40px;
   margin-top: 100px;
   text-align: center;
@@ -44,19 +66,16 @@
   margin-right: 10px;
 }
 
-.card .content {
 
-  text-align: left;
-}
 
-.card h2 {
+.card .card-txt h2 {
   color: #424141;
   font-weight: 700;
   font-family: "Saira";
   margin: 0;
 }
 
-.card p {
+.card .card-txt p {
   color: #787878;
   margin: 5px 0;
   font-family: "Poppinis";
