@@ -14,7 +14,14 @@
 
 /* MOBILE */
 @media (max-width: 800px) {
-  #hero{
-    display: none;
-  }
-}
+  .container{
+     max-width: 800px;
+   }
+ }
+ 
+ @media (max-width: 800px) {
+  .col-100{
+    max-width: 100%;
+   }
+ }
+ 

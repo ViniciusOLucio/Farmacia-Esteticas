@@ -60,8 +60,15 @@ h1 {
   /* font-family: "Poppinis"; */
   font-weight: 700;
 }
-/* @media (min-width: 360px){
-  header span.titulo{
-
+@media (max-width: 800px) {
+  span.subtitleh {
+    color: rgba(44, 46, 65, 0.50);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -20px;
+    margin-left: -50%;
   }
-  } */
+}
+ 
+  

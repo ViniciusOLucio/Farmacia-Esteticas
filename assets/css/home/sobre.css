@@ -5,11 +5,23 @@
 }
 
 .sobre .card {
-    margin-left: 16%;
+    /* margin-left: 16%; */
 /* justify-content: center; */
    /* align-items: center; */
-    width: 800px;
+    width: 80%;
     height: 250px;
+}
+.sobre .card .content h2{
+    color: rgb(35, 34, 34);
+
+    font-family: "Saira";
+    font-weight: 700;
+}
+.sobre .card .content p{
+    color: black;
+    margin-right: 20%;
+    font-family: "Poppinis";
+    font-weight: 400;
 }
 /* @media (min-width: 360px){
     .sobre .card{
