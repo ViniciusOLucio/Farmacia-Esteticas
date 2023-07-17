@@ -82,17 +82,18 @@
     grid-template-columns: 1fr;
     gap: 10px;
   }
-}
-@media (max-width: 800px) {
   .mais-procurados-cards {
     display: inline-block;
-
+  
   }
-}
-@media (max-width: 800px) {
   .mais-procurados-cards{
-    margin-left: -70px;
-
-
+    margin-left:0;
+  
+  
+  }
+  .card{
+    margin-left: 0px !important;
+    width: unset;
   }
 }
+
