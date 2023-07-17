@@ -6,7 +6,7 @@
 
 .separacao {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
 }
 
 .projetos h2 {
@@ -46,3 +46,14 @@
 .projetos .separacao ul{
     margin-left: 60px;
 }
+@media (max-width: 800px) {
+    .separacao {
+     margin-left: 0;
+     gap: 40px;
+     grid-template-columns: 1fr 1fr;
+ }
+ .check-list {
+    margin-left: 0 !important;
+ }
+ 
+  }
