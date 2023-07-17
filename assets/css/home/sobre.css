@@ -1,23 +1,20 @@
-.sobre .card img {
+.sobre-card img {
     padding-bottom: 40px;
     width: 300px;
     height: 300px;
 }
 
-.sobre .card {
-    /* margin-left: 16%; */
-/* justify-content: center; */
-   /* align-items: center; */
-    width: 80%;
-    height: 250px;
+.sobre-card {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 }
-.sobre .card .content h2{
+.sobre-card .txt h2{
     color: rgb(35, 34, 34);
 
     font-family: "Saira";
     font-weight: 700;
 }
-.sobre .card .content p{
+.sobre-card-txt p{
     color: black;
     margin-right: 20%;
     font-family: "Poppinis";
@@ -25,11 +22,13 @@
 }
 
    @media (max-width: 800px) {
-   .sobre .card {
+   .sobre-card {
     margin-left: 0;
-/* justify-content: center; */
-   /* align-items: center; */
-   width: 60vh;
-    height: 30vh;
+    grid-template-columns: 1fr;
 }
+
+ }
+   .sobre-card-txt{
+    grid-column: span 2;
    }
+   
